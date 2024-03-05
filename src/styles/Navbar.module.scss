@@ -1,0 +1,57 @@
+$navbar-bg-color: #f8f9fa;
+$navbar-padding: 10px;
+$link-color: #333;
+$link-hover-color: #007bff;
+$font-size: 20px;
+$navbar-height: 40px;
+
+.navbar {
+  background-color: $navbar-bg-color;
+  padding: $navbar-padding;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: $navbar-height;
+}
+
+.navItems {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+.navItem {
+  margin-right: 100px;
+  transition: color 0.3s ease;
+  font-size: $font-size;
+}
+
+.navLink {
+  color: $link-color;
+  text-decoration: none;
+
+  &:hover {
+    color: $link-hover-color;
+  }
+}
+
+.userGreeting {
+  margin-right: 100px;
+  font-size: $font-size;
+}
+
+.signOut {
+  cursor: pointer;
+  color: $link-color;
+  font-size: $font-size;
+
+  &:hover {
+    color: $link-hover-color;
+  }
+}
+
+.userSection {
+  display: flex;
+  align-items: center;
+}

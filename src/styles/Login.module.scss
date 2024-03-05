@@ -1,0 +1,61 @@
+.loginContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.loadingText {
+  color: #999;
+  font-size: 28px;
+}
+
+.loginOptions {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.loginButton {
+  margin: 10px;
+  padding: 10px 20px;
+  font-size: 16px;
+  color: #fff;
+  background-color: #007bff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  width: 100%;
+
+  &:hover {
+    background-color: #0056b3;
+  }
+}
+
+.googleButton {
+  background-color: #067e08;
+
+  &:hover {
+    background-color: #067e08af;
+  }
+}
+
+.facebookButton {
+  background-color: #3b5998;
+
+  &:hover {
+    background-color: #3b5898b7;
+  }
+}
+
+.appleButton {
+  background-color: #000;
+
+  &:hover {
+    background-color: #000000a7;
+  }
+}
