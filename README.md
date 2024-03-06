@@ -20,7 +20,8 @@ Below are the key results: one homework and a presentation that comprises the co
 ### Presentation
 
 [Week5: Firebase Authentication](https://docs.google.com/presentation/d/170urGVbxeUDgYTRXQiedsAXKAhVvprS-2WKk6e7KuZ4/edit?usp=sharing), which includes:
-
-- Add Add firebase to a JavaScript app
+Firebase authentication, SSO sign in with Google/Facebook/Apple, and demo of hw9
+- Add firebase to a JavaScript app
 - Add firebase authentication to a JavaScript app
-- Add SSO: sign in with Google, Facebook
+- Authenticate Using Google with JavaScript
+- Authenticate Using Facebook with JavaScript
